@@ -1,11 +1,24 @@
-# simple-API
-API em fastAPi para a atividade de Backend frameworks
+# Simple API
+API em **FastAPI** desenvolvida para a atividade de Backend Frameworks.
 
-# Instruções de como rodar a API localmente:
-- Clone o repositório com: git clone https://github.com/RailsonF/simple-API.git
+## Como rodar a API localmente
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/RailsonF/simple-API.git
+   cd simple-API
 
-- No diretório do projeto, abra o terminal e digite: pip install requirements.txt
+## crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-- Rode o comando uvicorn app.main:app --reload
+### Instale as dependências
+pip install -r requirements.txt
 
-# Link da API no Render:
+### Rode a aplicação
+uvicorn app.main:app --reload
+
+🌐 API no Render
+## A API também está disponível publicamente em:
+https://simple-api-k472.onrender.com/health/
+https://simple-api-k472.onrender.com/about/
