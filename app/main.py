@@ -13,4 +13,4 @@ app.include_router(about_router)
 
 @app.router.get("/")
 def home():
-    return "Seja Bem Vindo!!"
+    return {"Olá:":"Seja Bem Vindo!!", "endpoints": "/health e /about"}
