@@ -21,4 +21,5 @@ uvicorn app.main:app --reload
 🌐 API no Render
 ## A API também está disponível publicamente em:
 https://simple-api-k472.onrender.com/health/
+
 https://simple-api-k472.onrender.com/about/
